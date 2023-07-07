@@ -9,14 +9,14 @@ justify-content: space-around;
 export const ButtonGood = styled.button`
 color: green;
 width: ${props => props.theme.space[7]}px;
-background: #76bbe8;
+background: ${props => props.theme.colors.backnorm};
 text-transform: capitalize;
 padding: ${props => props.theme.space[3]}px ${props => props.theme.space[3]}px;
 border-radius: ${props => props.theme.radii.medium};
 box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
 &:hover {
     border: ${props => props.theme.borders.normal};
-    background: #2e2b2b;
+    background: ${props => props.theme.colors.backhover};
     box-shadow: inset -1px -1px 4px #ffffff, inset 1px 1px 5px #ceced1;
   } 
   &:active {
@@ -28,14 +28,14 @@ box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
 export const ButtonNeutral = styled.button`
 color: Yellow;
 width: ${props => props.theme.space[7]}px;
-background: #76bbe8;
+background: ${props => props.theme.colors.backnorm};;
 text-transform: capitalize;
 padding: ${props => props.theme.space[3]}px ${props => props.theme.space[3]}px;
 border-radius: ${props => props.theme.radii.medium};
 box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
 &:hover {
     border: ${props => props.theme.borders.normal};
-    background: #2e2b2b;
+    background: ${props => props.theme.colors.backhover};
      box-shadow: inset -1px -1px 4px #ffffff, inset 1px 1px 5px #ceced1;
   } 
   &:active {
@@ -47,14 +47,14 @@ box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
 export const ButtonBad = styled.button`
 color: red;
 width: ${props => props.theme.space[7]}px;
-background: #76bbe8;
+background: ${props => props.theme.colors.backnorm};;
 text-transform: capitalize;
 padding: ${props => props.theme.space[3]}px ${props => props.theme.space[3]}px;
 border-radius: ${props => props.theme.radii.medium};
 box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
 &:hover {
     border: ${props => props.theme.borders.normal};
-    background: #2e2b2b;
+    background: ${props => props.theme.colors.backhover};
      box-shadow: inset -1px -1px 4px #ffffff, inset 1px 1px 5px #ceced1;
   } 
   &:active {

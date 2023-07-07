@@ -38,4 +38,6 @@ StatisticField.propTypes = {
   bad: PropTypes.number.isRequired,
   backgroundColor: PropTypes.string.isRequired,
   goodPercentage: PropTypes.number.isRequired,
+  percentage: PropTypes.number.isRequired,
+  totalScore: PropTypes.number.isRequired,
 };

@@ -1,15 +1,9 @@
 import React, { Component } from "react";
-import "./App.css";
 import { Buttons } from "./components/buttons/buttons";
-
 import { TitleFeedback } from "./components/title/title";
-
 import { StatisticTitle } from "./components/statisticTitle/statistikTitle";
-
 import { StatisticField } from "./components/statistics/statistics";
-
 import { handleButtonClick, getBackgroundColor } from "./utils";
-
 import { Section } from "./components/feedbackboard/feedbackboard";
 
 export class App extends Component {
