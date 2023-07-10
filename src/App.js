@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { ButtonsFeedback } from "./components/ButtonsFeedback/buttonsFeedback";
+import { Section } from "./components/Feedbackboard/feedbackboard";
+import { StatisticField } from "./components/Statistics/statistics";
 import { TitleFeedback } from "./components/Title/title";
 import { StatisticTitle } from "./components/StatisticTitle/statistikTitle";
-import { StatisticField } from "./components/Statistics/statistics";
 import { getBackgroundColor } from "./utils/bacgrond";
-import { Section } from "./components/Feedbackboard/feedbackboard";
 
 export class App extends Component {
   state = {
