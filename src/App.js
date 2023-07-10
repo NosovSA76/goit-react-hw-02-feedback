@@ -8,9 +8,9 @@ import { getBackgroundColor } from "./utils/bacgrond";
 
 export class App extends Component {
   state = {
+    bad: 0,
     good: 0,
     neutral: 0,
-    bad: 0,
   };
 
   handleButtonClick = (buttonType) => {
