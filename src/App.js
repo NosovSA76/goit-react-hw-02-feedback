@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { ButtonsFeedback } from "./components/ButtonsFeedback/buttonsFeedback";
 import { getBackgroundColor } from "./utils/bacgrond";
-import { FieldStatistic } from "./components/Statistics/statistics";
+import { BoardFeedback } from "./components/FeedbackBoard/feedbackBoard";
 import { TitleFeedback } from "./components/Title/title";
 import { TitleStatistic } from "./components/StatisticTitle/statistikTitle";
-import { BoardFeedback } from "./components/Feedbackboard/feedbackboard";
+import { FieldStatistic } from "./components/Statistics/statistics";
 
 export class App extends Component {
   state = {
