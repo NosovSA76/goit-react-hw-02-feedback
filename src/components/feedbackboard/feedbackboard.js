@@ -1,6 +1,6 @@
 import React from "react";
-import { FeedbackBoard } from "./feedbackboard.styled";
+import { Board } from "./feedbackboard.styled";
 
 export const BoardFeedback = ({ children }) => {
-  return <FeedbackBoard>{children}</FeedbackBoard>;
+  return <Board>{children}</Board>;
 };

@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const FeedbackBoard = styled.section`
+export const Board = styled.section`
 width: 620px;
 text-align: center;
 margin: auto;
