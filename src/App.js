@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Buttons } from "./components/Buttons/buttons";
+import { ButtonsFeedback } from "./components/ButtonsFeedback/buttonsFeedback";
 import { TitleFeedback } from "./components/Title/title";
 import { StatisticTitle } from "./components/StatisticTitle/statistikTitle";
 import { StatisticField } from "./components/Statistics/statistics";
@@ -32,7 +32,7 @@ export class App extends Component {
     return (
       <Section>
         <TitleFeedback text="Please leave feedback" />
-        <Buttons onButtonClick={this.handleButtonClick} />
+        <ButtonsFeedback onButtonClick={this.handleButtonClick} />
         <StatisticTitle text="Statistic" />
         {total === 0 ? (
           <p>No feedback</p>

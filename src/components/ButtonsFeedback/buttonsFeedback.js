@@ -5,9 +5,9 @@ import {
   ButtonGood,
   ButtonNeutral,
   ButtonBad,
-} from "./buttons.styled";
+} from "./buttonsFeedback.styled";
 
-export const Buttons = ({ onButtonClick }) => {
+export const ButtonsFeedback = ({ onButtonClick }) => {
   const handleClick = (buttonType) => {
     onButtonClick(buttonType);
   };
@@ -23,6 +23,6 @@ export const Buttons = ({ onButtonClick }) => {
   );
 };
 
-Buttons.propTypes = {
+ButtonsFeedback.propTypes = {
   onButtonClick: PropTypes.func.isRequired,
 };
