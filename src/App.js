@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { ButtonsFeedback } from "./components/ButtonsFeedback/buttonsFeedback";
-import { Section } from "./components/Feedbackboard/feedbackboard";
-import { StatisticField } from "./components/Statistics/statistics";
+import { BoardFeedback } from "./components/Feedbackboard/feedbackboard";
+import { FieldStatistic } from "./components/Statistics/statistics";
 import { TitleFeedback } from "./components/Title/title";
-import { StatisticTitle } from "./components/StatisticTitle/statistikTitle";
+import { TitleStatistic } from "./components/StatisticTitle/statistikTitle";
 import { getBackgroundColor } from "./utils/bacgrond";
 
 export class App extends Component {
@@ -30,14 +30,14 @@ export class App extends Component {
     const backgroundColor = getBackgroundColor(percentage, total);
 
     return (
-      <Section>
+      <BoardFeedback>
         <TitleFeedback text="Please leave feedback" />
         <ButtonsFeedback onButtonClick={this.handleButtonClick} />
-        <StatisticTitle text="Statistic" />
+        <TitleStatistic text="Statistic" />
         {total === 0 ? (
           <p>No feedback</p>
         ) : (
-          <StatisticField
+          <FieldStatistic
             good={good}
             neutral={neutral}
             bad={bad}
@@ -47,7 +47,7 @@ export class App extends Component {
             backgroundColor={backgroundColor}
           />
         )}
-      </Section>
+      </BoardFeedback>
     );
   }
 }

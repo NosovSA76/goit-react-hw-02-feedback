@@ -9,7 +9,7 @@ import {
   Percentage,
 } from "./statistics.styled";
 
-export const StatisticField = ({
+export const FieldStatistic = ({
   good,
   neutral,
   bad,
@@ -32,7 +32,7 @@ export const StatisticField = ({
   );
 };
 
-StatisticField.propTypes = {
+FieldStatistic.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,

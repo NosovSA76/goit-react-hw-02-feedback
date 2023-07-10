@@ -1,6 +1,6 @@
 import React from "react";
 import { FeedbackBoard } from "./feedbackboard.styled";
 
-export const Section = ({ children }) => {
+export const BoardFeedback = ({ children }) => {
   return <FeedbackBoard>{children}</FeedbackBoard>;
 };
